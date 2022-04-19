@@ -5,7 +5,6 @@ import "./Toggle.css"
 
 export default function Toggle() {
     const [toggleState, setToggleState] = useState(false)
-
     const onChange = () => {
         toggleState ? setToggleState(false) : setToggleState(true)
     }

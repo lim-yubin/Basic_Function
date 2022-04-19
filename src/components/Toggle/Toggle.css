@@ -11,7 +11,7 @@
   height: 40px;
   cursor: pointer;
   position: relative;
-  background-color: #2289dd;
+  background-color: #eeebeb;
   border-radius: 20px;
   text-align: center;
 }
@@ -28,7 +28,7 @@
   transition: all 0.4s ease;
 }
 #toggle-input:checked + .toggle-label {
-  background-color: #2289dd;
+  background-color: #eeebeb;
 }
 #toggle-input:checked + .toggle-label:before {
   transform: translate(147px);
@@ -41,21 +41,21 @@
   flex-direction: row;
 }
 .basic-true,
-.basic-false,
-.detail-true,
-.detail-false {
+.detail-true {
+  transition-delay: 0.1s;
+  color: #2289dd;
   font-weight: 700;
   width: 50%;
   align-self: center;
   z-index: 2;
 }
 
-.basic-false {
-  transition-delay: 0.1s;
-  color: #2289dd;
-}
-
+.basic-false,
 .detail-false {
   transition-delay: 0.1s;
-  color: #2289dd;
+  color: #d3d3d3;
+  font-weight: 700;
+  width: 50%;
+  align-self: center;
+  z-index: 2;
 }
