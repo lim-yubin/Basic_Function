@@ -1,0 +1,84 @@
+#input-container {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  text-align: center;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+#input-body {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#mail,
+#password {
+  width: 100%;
+  height: 30px;
+  background-color: #eeebeb;
+}
+
+.input-title {
+  text-align: left;
+  font-size: 12px;
+}
+
+#email-section {
+  margin-bottom: 10px;
+}
+
+#error-message {
+  visibility: hidden;
+  font-size: 13px;
+}
+
+#invalid {
+  color: rgb(228, 84, 84);
+  font-size: 13px;
+}
+
+#input-mail {
+  border: 1px solid #d3d3d3;
+  background-color: #eeebeb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+#password-section {
+  margin-top: 10px;
+}
+#input-password {
+  border: 1px solid #d3d3d3;
+  background-color: #eeebeb;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#icons {
+  display: flex;
+  flex-direction: row;
+}
+#show {
+  display: none;
+  width: 20px;
+}
+#not-show {
+  width: 20px;
+}
