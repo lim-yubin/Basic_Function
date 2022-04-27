@@ -1,8 +1,8 @@
 # Basic_Function
 
-1.Button /n
-2.Tab/n
-3.Slide/n
-4.Input/n
-5.Dropdown/n
+1.Button <br/>
+2.Tab <br/>
+3.Slide <br/>
+4.Input <br/>
+5.Dropdown
 
